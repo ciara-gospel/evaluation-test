@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="main">
+        <div class="card-back"></div>
+        <div class="card-front">
+            <div class="test">
+            <h1>Bank Account Balance</h1>
+            <h2>$1000.00</h2>
+        </div>
+        <div class="first-part">
+            <div class="options">
+                <ul class="one">
+                    <li>Deposit</li>
+                    <li>Withdraw</li>
+                    <li>Transaction</li>
+                </ul>
+            </div>
+            <div class="both">
+            <div class="enter">
+             <p>Deposit Amount</p>
+             <input type="number" id="enter" class="input" placeholder="enter your amount">
+            </div>
+            <div class="currency">
+                <p>Currency</p>
+                <select name="texte" id="text">
+                <option value="">USD</option>
+                <option value="">EUR</option>
+                <option value="">GBP</option>
+                <option value="">NGN</option>
+            </select>
+            </div>
+        </div>
+            <button class="btn" id="action">
+                <ul>
+                    <li>Deposit</li>
+                    <li>Withdraw</li>
+                </ul>
+            </button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
 </body>
 </html>
